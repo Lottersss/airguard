@@ -1,7 +1,6 @@
 # AirGuard
 
-[![English](https://img.shields.io/badge/lang-English-6b7280?style=for-the-badge)](README.md)
-[![Русский](https://img.shields.io/badge/язык-Русский-2563eb?style=for-the-badge)](README.ru.md)
+[🇬🇧 English](README.md)  ·  🇷🇺 **Русский**
 
 Утилита пассивного аудита защищённости Wi-Fi сетей для macOS.
 

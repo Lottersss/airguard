@@ -1,6 +1,6 @@
 # AirGuard
 
-🇬🇧 **English**  ·  [🇷🇺 Русский](README.ru.md)
+<img src="https://flagcdn.com/20x15/gb.png" alt="EN"> **English** &nbsp;·&nbsp; [<img src="https://flagcdn.com/20x15/ru.png" alt="RU"> Русский](README.ru.md)
 
 Passive Wi-Fi security audit tool for macOS.
 
