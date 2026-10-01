@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>AirGuardScanner</string>
+    <key>CFBundleDisplayName</key>
+    <string>AirGuard Scanner</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.lotters.airguard.scanner</string>
+    <key>CFBundleExecutable</key>
+    <string>AirGuardScanner</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>12.0</string>
+    <key>LSUIElement</key>
+    <true/>
+
+    <!-- Тексты, которые macOS показывает в окне запроса доступа к геолокации.
+         Доступ нужен не для определения местоположения, а потому что macOS
+         считает список Wi-Fi сетей геочувствительными данными. -->
+    <key>NSLocationUsageDescription</key>
+    <string>AirGuard использует геолокацию, так как macOS без неё скрывает имена и MAC-адреса Wi-Fi сетей, необходимые для аудита защищённости.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>AirGuard использует геолокацию, так как macOS без неё скрывает имена и MAC-адреса Wi-Fi сетей, необходимые для аудита защищённости.</string>
+</dict>
+</plist>
