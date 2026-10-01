@@ -1,15 +1,15 @@
-# AirGuard
+# airguard
 
-<img src="https://flagcdn.com/20x15/ru.png" alt="RU"> Утилита пассивного аудита защищённости Wi-Fi сетей для macOS.
-<img src="https://flagcdn.com/20x15/gb.png" alt="EN"> Passive Wi-Fi security audit tool for macOS.
+Утилита для аудита защищённости Wi-Fi сетей под macOS.
 
-Сканирует сети вокруг, оценивает защищённость (шифрование, заводские имена,
-скрытые сети) и формирует отчёт — в терминале и в HTML. / Scans nearby
-networks, assesses their security and generates a terminal + HTML report.
+Смотрит, какие сети есть вокруг, проверяет их защиту (тип шифрования,
+заводские имена, скрытые сети) и показывает, где есть риск — в терминале
+и в виде HTML-отчёта. Работает только пассивно, ничего не ломает и не
+подключается к чужим сетям.
 
-> Только пассивно, без атак. / Passive only, no attacks.
+![airguard](assets/terminal.png)
 
-## Установка / Install
+## Установка
 
 ```bash
 git clone https://github.com/Lottersss/airguard.git
@@ -17,11 +17,11 @@ cd airguard
 ./install.sh
 ```
 
-## Запуск / Usage
+## Запуск
 
 ```bash
 source .venv/bin/activate
 airguard --scan --report report.html
 ```
 
-MIT · [docs/architecture.md](docs/architecture.md)
+Лицензия MIT.
